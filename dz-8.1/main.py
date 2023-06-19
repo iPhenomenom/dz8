@@ -3,9 +3,9 @@ from models import Author, Quote
 
 connect(
     db="cluster0",
-    username="mytoreh",
-    password="123123123",
-    host="mongodb+srv://mytoreh:123123123@cluster0.r636yxn.mongodb.net/?retryWrites=true&w=majority"
+    username="user",# использовал свой Username
+    password="password", # Использовал свой Password
+    host="mongodb+srv://Username:password@cluster0.r636yxn.mongodb.net/?retryWrites=true&w=majority"
 )
 
 from load_data import load_authors, load_quotes
